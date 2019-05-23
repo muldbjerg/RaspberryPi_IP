@@ -10,7 +10,7 @@ En Raspberry Pi's ip ændre sig, og derfor det her lille setup, som gemmer ip'en
   * Kør npm install (for at hente node modules)
 * Tilføj 'ServiceAccountKey.json' fra Firebase til mappen. 
   * Json filen kan findes i firebase consolen: 'Project Setting' > 'Service Accounts' > 'Generate New Privacy Key'
-* Ret informationerne (devicename og url) i 'index.js
+* Ret informationerne (devicename og url) i 'index.js'
 
 ### Tilføj til cronjob
 * Åben cronjob på Pi'en i terminalen 
