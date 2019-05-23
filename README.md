@@ -32,6 +32,7 @@ En Raspberry Pi's ip ændre sig, og derfor det her lille setup, som gemmer ip'en
 Hjemmesiden kan vises lokalt eller lægges på et webhotel. 
 
 * Ret informationerne i 'firebaseInput.json'. 
-  *Find informationer i firebase consolen: 'Project Setting' > 'Generel' --> Informationerne ligger under 'Your Apps' og skal sættes ind i json filen. 
+  * Find informationer i firebase consolen: 'Project Setting' > 'Generel' 
+    * Værdierne ligger under 'Your Apps' og skal sættes ind i json filen. 
 * Ret devicename og evt. path i **'index.html'**
 * Kør **'index.html'** 
