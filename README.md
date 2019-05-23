@@ -2,15 +2,13 @@
 
 En Raspberry Pi's ip ændre sig, og derfor det her lille setup, som gemmer ip'en når Pi'en starter og viser den på en hjemmeside. 
 
-\
-\
+<br /><br />
 
 ## Instruktioner: 
 
 Følg instruktionerne herunder:
 
-\
-
+<br />
 
 ## På Raspberry Pi'en 
 * Opret en mappe på Pi'en
@@ -29,7 +27,8 @@ Følg instruktionerne herunder:
 ```javascript
   @reboot sleep 10 && node /home/pi/piIp/index.js 
 ```
-\
+
+<br />
 
 ## Vis hjemmesiden
 Hjemmesiden kan vises lokalt eller lægges på et webhotel. 
