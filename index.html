@@ -23,8 +23,8 @@
 			var ip = database.ref('/');
 
 			ip.on('value', function (snapshot) {
-				document.getElementById('ip').innerHTML = snapshot.val().piIKassen.wlan0.ip;
-				document.getElementById('time').innerHTML = "Last updated " + new Date(snapshot.val().piIKassen.wlan0.time);
+				document.getElementById('ip').innerHTML = snapshot.val().piIKassen.wlan0.ip; // <---- Ret device name og evt path
+				document.getElementById('time').innerHTML = "Last updated " + new Date(snapshot.val().piIKassen.wlan0.time); // <---- Ret device name og evt path
 			});
 		});
 	</script>
