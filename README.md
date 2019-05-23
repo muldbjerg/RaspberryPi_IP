@@ -2,7 +2,13 @@
 
 En Raspberry Pi's ip ændre sig, og derfor det her lille setup, som gemmer ip'en når Pi'en starter og viser den på en hjemmeside. 
 
-## Instruktion: 
+
+
+
+## Instruktioner: 
+
+Følg instruktionerne herunder:
+
 
 ## På Raspberry Pi'en 
 * Opret en mappe på Pi'en
@@ -12,7 +18,7 @@ En Raspberry Pi's ip ændre sig, og derfor det her lille setup, som gemmer ip'en
   * Json filen kan findes i firebase consolen: 'Project Setting' > 'Service Accounts' > 'Generate New Privacy Key'
 * Ret informationerne (devicename og url) i 'index.js'
 
-### Tilføj til cronjob
+#### Tilføj til cronjob
 * Åben cronjob på Pi'en i terminalen 
 ```javascript
   sudo crontab -e
