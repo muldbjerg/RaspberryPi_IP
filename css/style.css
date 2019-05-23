@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Roboto+Mono');
+
+article{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #fbc58c;
+    color: #651127;
+}
+
+.center{
+    text-align: center;
+
+    position: relative;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h1{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 80px;
+}
+
+#ip{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+}
+
+#time{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    color: #651127;
+}
+
+
