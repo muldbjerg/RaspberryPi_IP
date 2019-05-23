@@ -2,7 +2,7 @@
 
 En Raspberry Pi's ip ændre sig, og derfor det her lille setup, som gemmer ip'en når Pi'en starter og viser den på en hjemmeside. 
 
-<br /><br />
+<br />
 
 ## Instruktioner: 
 
