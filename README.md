@@ -4,7 +4,7 @@ En Raspberry Pi's ip ændre sig, og derfor det her lille setup, som gemmer ip'en
 
 <br />
 
-## Instruktioner: 
+# Instruktioner: 
 
 <br />
 
