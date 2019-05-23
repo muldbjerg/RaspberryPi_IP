@@ -4,15 +4,13 @@ En Raspberry Pi's ip ændre sig, og derfor det her lille setup, som gemmer ip'en
 
 \
 \
-\
-
 
 ## Instruktioner: 
 
 Følg instruktionerne herunder:
 
 \
-\
+
 
 ## På Raspberry Pi'en 
 * Opret en mappe på Pi'en
@@ -31,7 +29,6 @@ Følg instruktionerne herunder:
 ```javascript
   @reboot sleep 10 && node /home/pi/piIp/index.js 
 ```
-\
 \
 
 ## Vis hjemmesiden
