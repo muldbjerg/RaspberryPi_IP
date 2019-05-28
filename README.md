@@ -13,7 +13,7 @@ En Raspberry Pi's ip ændre sig, og derfor det her lille setup, som gemmer ip'en
 * Flyt filerne fra NodeServer mappen til den nye mappe
   * Kør npm install (for at hente node modules)
    ```
-    npm install
+   npm install
    ```
 * Tilføj **'ServiceAccountKey.json'** fra Firebase til mappen. 
   * Json filen kan findes i firebase consolen: 'Project Setting' > 'Service Accounts' > 'Generate New Privacy Key'
@@ -22,11 +22,11 @@ En Raspberry Pi's ip ændre sig, og derfor det her lille setup, som gemmer ip'en
 #### Tilføj til cronjob
 * Åben cronjob på Pi'en i terminalen 
 ```
-  sudo crontab -e
+sudo crontab -e
 ```
 * Indsæt denne linje kode nederst (Husk at ret filsti, sådan den peger på scriptet)
 ```
-  @reboot sleep 10 && node /home/pi/piIp/index.js 
+@reboot sleep 10 && node /home/pi/piIp/index.js 
 ```
 
 <br />
